@@ -1,0 +1,103 @@
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1078px;
+	min-height: 1078px;
+	background: rgb(43, 43, 43);
+}
+header{
+	background: #e0e0e0;
+}
+header input{
+	border-radius: 5px;
+	float: left;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+header img{
+	width: 80%;
+	margin-top: 5px;
+	margin-left: 28px;
+}
+@font-face{
+	font-family: Montserrat;
+	src: url(fonts/Montserrat/Montserrat.ttf);
+}
+#secc01{
+	border-bottom: 1px solid white;
+}
+#secc01 article{
+	width: 18%;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	
+}
+#secc01 #secc01Art01 img{
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+#secc01Art01{
+	margin-right: 8px;
+}
+#secc01Art02{
+	background: #9ccc65;
+	
+
+}
+#secc01Art03{
+	background: grey;
+	/*margin-right: -4px;*/
+}
+#secc01Art04{
+	background: #cb113c;
+	
+	
+}
+#secc01Art05{
+	
+	background: #cdcace;
+
+}
+
+#secc02 article{
+	width: 33%;
+	display: inline-block;
+	
+
+}
+
+#secc02 img{
+	width: 250px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+#secc02Art03 img{
+	padding-top: -180px;
+}
+#secc02Art01 img{
+	
+	padding-bottom: 6px;
+}
+
+
+.fuente{
+	font-family: Montserrat, sans-serif;
+}
+
+.blanco{
+	color: #e0e0e0;
+}
+.nito{
+	font-weight: bold;
+}
+
+.info{	
+	padding: 10px;
+}
+
+

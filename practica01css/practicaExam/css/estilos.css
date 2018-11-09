@@ -1,0 +1,173 @@
+body{
+font-size: 14px;
+	margin: 0px auto;
+	max-width: 1078px;
+	min-height: 1078px;
+	font-family: 'Roboto', sans-serif;
+}
+@font-face{
+	font-family: Roboto-black;
+	src:  url(fonts/Roboto-black.ttf);
+}
+
+header #logo{
+    position: relative;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+header #canasta{
+    position: relative;
+    margin-left: 800px;
+    margin-top: -250px;
+    width: 120px;
+}
+
+header input{
+    border:1px solid rgb(177, 176, 176);
+    height: 25px;
+    margin-left: 200px;
+    width: 250px;
+text-align: right;
+}
+header nav{
+    background: rgb(82, 202, 192);
+    height: 35px;
+    margin: 0px auto;1px solid
+    
+}
+header nav ul li{
+    color: white;
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#secc01{
+    background: rgb(74, 196, 185);
+    
+}
+#secc01 article{
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+#secc01Art01 {
+    width: 68%;
+    vertical-align: middle;
+    color: white;
+}
+
+#secc01Art01 #contenido{
+   font-size: 3em;
+   margin-left: 80px;
+  
+}
+
+#secc01Art01 #texto{
+    font-size: 14px;  
+    margin-left: 80px;
+}
+
+#secc01Art01 button{
+    background:  rgb(82, 202, 192);
+    border: 2px solid white;
+    color: white;
+    font-size: 1.2em;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+#secc01Art02{
+    width: 30%;
+
+}
+
+#secc01Art02 img{
+    position: relative;
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 200px;
+}
+
+#secc02 article{
+    background: rgb(58, 180, 170);
+    height:35px;
+}
+
+#otroTexto{
+    color: white;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+#secc03 article{
+    display: inline-block;
+}
+
+#secc03Art01{
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#secc03Art01 img{
+    width: 185px;
+    margin-left: 30px;
+}
+
+#secc03Art02{
+    width: 20%; 
+    margin-left: 100px;
+}
+
+#secc03Art02 img{
+    width: 166px;
+    margin-left: 30px;
+} 
+
+#secc03Art03{
+    width: 20%;
+    margin-left: 100px;  
+}
+
+#secc03Art03 img{
+    width: 158px;
+    margin-left: 30px;
+} 
+
+.bordes{
+    border-top:1px solid rgb(177, 176, 176);
+    border-left:1px solid rgb(177, 176, 176);
+    border-right:1px solid rgb(177, 176, 176);
+    border-bottom: 5px solid rgb(53, 214, 139);
+}
+
+.producto{
+    margin-left: 60px;
+    color: rgb(177, 176, 176);
+}
+
+.precio{
+    margin-left: 40px;
+    color: rgb(177, 176, 176);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.boton{
+    margin-left: 20px;
+    border: rgb(53, 214, 139);
+    background: rgb(53, 214, 139);
+    color: white;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    
+}
+
+.nito{
+    font-weight: bold;
+}

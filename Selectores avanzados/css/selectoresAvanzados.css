@@ -1,0 +1,43 @@
+img[alt]{
+    border: 5px solid black;
+}
+
+img[src="img/TecLogo.png"]{
+    width: 400px;
+}
+
+img[src^="img/"]{
+    width: 150px;
+}
+
+img[src$="png"]{
+    width: 250px;
+}
+
+img[src*="mg/"]{
+    width: 1000px;
+}
+
+article[class~="resaltado"]{
+    border: 1px dashed rgb(46, 46, 121);
+}
+
+article[class~="ingles"]{
+    border: 1px dashed rgb(129, 34, 34);
+}
+
+article[class~="archivo"]{
+    border: 1px dashed rgb(63, 173, 63);
+}
+
+article[class|="ingles"]{
+    text-align: center;
+}
+
+div > p{
+    color: blue;
+}
+
+div p{
+    color: rgb(170, 47, 47);
+}
